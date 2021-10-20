@@ -70,6 +70,21 @@ function About() {
           <p>Century 21 Patriot and Liberty – Quarter 2, 3, and 4 Top Sales Volume</p>
           </div>
         </div>
+        <div className="row">
+          <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <h2>Designations</h2>
+          </div>
+          <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <ul>
+            <li>E-Pro - E-Pro Specialist</li>
+            <li>SFR - Short Sale and Foreclosure Specialist</li>
+            <li>ABR - Accredited Buyer Representative</li>
+            <li>SRS - Seller Representative Specialist</li>
+            <li>CRS - Certified Residential Specialist</li>
+            <li>AHWD - At Home With Diversity</li>
+          </ul>
+          </div>
+        </div>
         </div>
       </div>
     );
