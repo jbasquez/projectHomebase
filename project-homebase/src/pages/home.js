@@ -1,15 +1,24 @@
 import React from "react";
+
 function Home() {
     return (
-      <div>
+      <div >
         <div className="row">
-            <div className="col-lg-8 col-md-8 col-sm-8">
-                <h2>Your activities</h2>
-            </div>
-            <div className="col-lg-4 col-md-4 col-sm-8">
-                <h2>New listings</h2>
-            </div>
+          <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <h2>Your activities</h2>
           </div>
+          <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <h2>New listings</h2>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <h2>Accomplishments</h2>
+          </div>
+          <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <h2>Articles</h2>
+          </div>
+        </div>
       </div>
     );
   }
