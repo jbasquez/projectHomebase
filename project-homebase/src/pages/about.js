@@ -16,6 +16,8 @@ function About() {
         <div className="row">
           <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <h2>2020</h2>
+          </div>
+          <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <p>Century 21 Masters Award</p>
             <p>Century 21 Liberty – Quarter 1, 2, 3 and 4 Top Sales Volume</p>
           </div>
@@ -23,7 +25,9 @@ function About() {
         <div className="row">
           <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <h2>2019</h2>
-            <p>Dreams and Vision Warrior Award</p>
+          </div>
+          <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <p>Dreams and Vision Warrior Award</p>
             <p>Century 21 Ruby Award</p>
             <p>Century 21 Liberty – Quarter 1, 2, 3 and 4 Top Sales Volume</p>
           </div>
