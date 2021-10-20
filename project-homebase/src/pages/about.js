@@ -85,6 +85,14 @@ function About() {
           </ul>
           </div>
         </div>
+        <div className="row">
+          <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <h2>Preferred Agent Status</h2>
+          </div>
+          <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <p>NCHFA - North Carolina Housing Financing Assistance</p>
+          </div>
+        </div>
         </div>
       </div>
     );
