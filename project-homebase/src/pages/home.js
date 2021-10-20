@@ -1,7 +1,7 @@
 import React from "react";
 function Home() {
     return (
-      <div className="home">
+      <div>
           <div className="row">
           <div className="col-lg-8 col-md-8 col-sm-8">
             <h2>hello</h2>

@@ -1,18 +1,28 @@
 .welcomeMessage{
-    border-width: 20px;
+    margin:auto;
+    align-items:center;
+    /* border-width: 20px;
     border-style: solid;
     border-color: red;
-    margin: auto; 
-    min-height: 100%;
+    margin: auto;  */
+    /* min-height: 100%;
     height: auto;
-    width: auto;
-    
+    width: auto; */
+    /* background-image: url('../pictures/floatingBook.png');
+    background-size: contain; */
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    background-size: auto; */
+    /* height: 100%;
+    width: 200px;
+    height: 300px; */
+    /* height:200px;
+    object-fit: scale-down; */
 }
 .welcomeImg{
-    background-image: url('../pictures/floatingBook.jpg');
+    background-image: url('../pictures/floatingBook.png');
     background-size: contain;
+    margin: auto;
+    height: 70vh;
     background-repeat: no-repeat;
-    min-height: 70%;
-    height: auto;
-    width: 100%;
 }
