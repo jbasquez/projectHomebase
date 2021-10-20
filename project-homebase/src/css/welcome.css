@@ -26,3 +26,7 @@
     height: 70vh;
     background-repeat: no-repeat;
 }
+.wrapper {
+    overflow: hidden;
+  }
+  
