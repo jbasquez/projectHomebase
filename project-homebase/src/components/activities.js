@@ -4,10 +4,19 @@ function Activities() {
       <div >
           <h2>Your new Activity</h2>
         <div className="row">
-          <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            
+          <div className="col-lg-6 col-md-6 col-sm-4 col-xs-12">
+            <p>link to next lesson</p>
           </div>
-          <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <div className="col-lg-6 col-md-6 col-sm-4 col-xs-12">
+              <p>icon % done with unit</p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-6 col-md-6 col-sm-4 col-xs-12">
+            <p>user icon</p>
+          </div>
+          <div className="col-lg-6 col-md-6 col-sm-4 col-xs-12">
+              <p>past lessons</p>
           </div>
         </div>
       </div>
