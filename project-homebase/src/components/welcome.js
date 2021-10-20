@@ -5,9 +5,9 @@ function Welcome() {
     return (
       <div>
         <div className="row">
-            <div className="col-lg-6 col-md-8 col-sm-10 col-xs-10 welcomeMessage">
+            <div className="col-lg-4 col-md-8 col-sm-10 col-xs-10">
                 <div className="wrapper">
-                    <div className="welcomeImg">
+                    <div className=" welcomeMessage welcomeImg">
                         <div className="welcomeWidth">
                             <h2>Welcome to Home Base!</h2>
                             <p>Moto:hdfjakldasfj</p>
