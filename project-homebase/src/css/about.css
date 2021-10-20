@@ -1,5 +1,6 @@
 .aboutBg{
-    background-color: aqua;
+    background-color: rgba(237, 174, 80, 0.797);
     border-style: dotted dashed solid double;
     margin: 5vh;
+    border-radius: 20px;
 }
