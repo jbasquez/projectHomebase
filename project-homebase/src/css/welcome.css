@@ -7,12 +7,16 @@
 }
 .welcomeImg{
     background-image: url('../pictures/floatingBook.png');
-    /* background-size: contain; */
-    height: 70vh;
+    height: 80vh;
+    width: 50vw;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 .wrapper {
     overflow: hidden;
+    margin-left: 7vw;
   }
-  
+.container {
+    text-align: center;
+}
