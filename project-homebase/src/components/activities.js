@@ -5,7 +5,7 @@ function Activities() {
           <h2>Your new Activity</h2>
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-4 col-xs-12">
-            <p>link to next lesson</p>
+            <p>user icon</p>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-4 col-xs-12">
               <p>icon % done with unit</p>
@@ -13,10 +13,10 @@ function Activities() {
         </div>
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-4 col-xs-12">
-            <p>user icon</p>
+            <p>user name</p>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-4 col-xs-12">
-              <p>past lessons</p>
+              <p>icon % fully done</p>
           </div>
         </div>
       </div>

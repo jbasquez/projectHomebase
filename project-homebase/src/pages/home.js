@@ -9,7 +9,7 @@ function Home() {
             <Activities />
           </div>
           <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <h2>New listings</h2>
+            <h2>Lessons</h2>
           </div>
         </div>
         <div className="row">

@@ -22,4 +22,9 @@
 }
 .welcomeText{
     color: cyan;
+    font-weight: bold;
+    text-shadow: rgb(23, 22, 22) 0px 0px 10px;
+}
+.mar{
+    margin-top:17%;
 }
