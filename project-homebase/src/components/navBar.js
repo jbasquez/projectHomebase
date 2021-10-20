@@ -12,6 +12,7 @@ function NavBar(){
                     <Link to="/projects" className="nav-link">Quizzes</Link>
                     <Link to="/projects" className="nav-link">Account</Link>
                     <Link to="/stats" className="nav-link">Stats</Link>
+                    <Link to="/about" className="nav-link">About</Link>
                 </ul>
             </div>
         </nav>
