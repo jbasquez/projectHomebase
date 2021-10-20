@@ -1,9 +1,10 @@
 import React from "react";
-
+import "../css/about.css";
 
 function About() {
     return (
       <div >
+        <div className="aboutBg">
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
               <h2>About Your Teacher</h2>
@@ -68,6 +69,7 @@ function About() {
           <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <p>Century 21 Patriot and Liberty – Quarter 2, 3, and 4 Top Sales Volume</p>
           </div>
+        </div>
         </div>
       </div>
     );
