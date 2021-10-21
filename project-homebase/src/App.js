@@ -5,6 +5,7 @@ import NavBar from "./components/navBar";
 import Welcome from "./components/welcome";
 import About from "./pages/about";
 import "../src/css/home.css";
+import Lessons from "../src/pages/lessonpg";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
               <Route exact path={"/"} component={Home} />
               <Route exact path={"/welcome"} component={Welcome} />
               <Route exact path={"/about"} component={About} />
+              <Route exact path={"/lessons"} component={Lessons} />
             </Switch>
           </Router>
       </div>
