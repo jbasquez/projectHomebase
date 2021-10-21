@@ -14,7 +14,7 @@ function About() {
                 Since going out on my own as an agent in 2015, I’ve won numerous awards, accolades and designations.</p>
           </div>
         </div>
-        <div className="row">
+        <div className="row aboutText">
           <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <h2>2020</h2>
           </div>
@@ -23,7 +23,7 @@ function About() {
             <p>Century 21 Liberty – Quarter 1, 2, 3 and 4 Top Sales Volume</p>
           </div>
         </div>
-        <div className="row">
+        <div className="row aboutText">
           <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <h2>2019</h2>
           </div>
@@ -33,7 +33,7 @@ function About() {
             <p>Century 21 Liberty – Quarter 1, 2, 3 and 4 Top Sales Volume</p>
           </div>
         </div>
-        <div className="row">
+        <div className="row aboutText">
           <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <h2>2018</h2>
           </div>
@@ -42,7 +42,7 @@ function About() {
             <p>Century 21 Centurion Award</p>
           </div>
         </div>
-        <div className="row">
+        <div className="row aboutText">
           <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <h2>2017</h2>
           </div>
@@ -52,7 +52,7 @@ function About() {
             <p>Century 21 Centurion Award</p>
           </div>
         </div>
-        <div className="row">
+        <div className="row aboutText">
           <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <h2>2016</h2>
           </div>
@@ -62,7 +62,7 @@ function About() {
             <p>Fayetteville Observer – Reader’s Choice Award</p>
           </div>
         </div>
-        <div className="row">
+        <div className="row aboutText">
           <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <h2>2015</h2>
           </div>
@@ -70,7 +70,7 @@ function About() {
           <p>Century 21 Patriot and Liberty – Quarter 2, 3, and 4 Top Sales Volume</p>
           </div>
         </div>
-        <div className="row">
+        <div className="row aboutText">
           <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <h2>Designations</h2>
           </div>
@@ -85,7 +85,7 @@ function About() {
           </ul>
           </div>
         </div>
-        <div className="row">
+        <div className="row aboutText">
           <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <h2>Preferred Agent Status</h2>
           </div>
