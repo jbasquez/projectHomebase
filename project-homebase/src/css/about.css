@@ -4,6 +4,10 @@
     margin: 5vh;
     border-radius: 20px;
 }
-.aboutText{
+.aboutBio{
     font-family: 'Montserrat', sans-serif;
+}
+.aboutHeader{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
