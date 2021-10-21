@@ -3,8 +3,10 @@
     height:100vh;
 }
 .homeBox{
-    background-color: gray;
+    background-color: rgb(131, 128, 128, 0.9);
     width: 70vw;
     margin-left: 13%;
     margin-top: 20px;
+    border-radius:10px;  
+    padding: 20px;
 }

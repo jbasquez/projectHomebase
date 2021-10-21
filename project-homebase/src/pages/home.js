@@ -7,18 +7,18 @@ function Home() {
       <div>
         <div className="homeBox">
         <div className="row">
-          <div className="col-lg-2 col-md-6 col-sm-4 col-xs-12">
+          <div className="col-lg-5 col-md-5 col-sm-5 col-xs-12">
             <Activities />
           </div>
-          <div className="col-lg-2 col-md-6 col-sm-4 col-xs-12">
+          <div className="col-lg-5 col-md-5 col-sm-5 col-xs-12">
             <h2>Lessons</h2>
           </div>
         </div>
         <div className="row">
-          <div className="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+          <div className="col-lg-5 col-md-5 col-sm-5 col-xs-12">
             <h2>Accomplishments</h2>
           </div>
-          <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <div className="col-lg-5 col-md-5 col-sm-5 col-xs-12">
             <h2>Articles</h2>
           </div>
         </div>
