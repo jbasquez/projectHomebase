@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "Name of Lesson Here",
+        "name": "Deciding to buy a home",
         "about": "enter short about here",
         "image": "enter.link.her",
         "time":"15min",
@@ -9,7 +9,55 @@
     },
     {
         "id": 2,
-        "name": "Name of Lesson Here",
+        "name": "Getting Pre-approved",
+        "about": "enter short about here",
+        "image": "enter.link.her",
+        "time":"15min",
+        "start":"https://www.yahoo.com/"
+    },
+    {
+        "id": 3,
+        "name": "Chosing a home",
+        "about": "enter short about here",
+        "image": "enter.link.her",
+        "time":"15min",
+        "start":"https://www.yahoo.com/"
+    },
+    {
+        "id": 4,
+        "name": "Closing a home",
+        "about": "enter short about here",
+        "image": "enter.link.her",
+        "time":"15min",
+        "start":"https://www.yahoo.com/"
+    },
+    {
+        "id": 5,
+        "name": "Deciding to sell",
+        "about": "enter short about here",
+        "image": "enter.link.her",
+        "time":"15min",
+        "start":"https://www.yahoo.com/"
+    },
+    {
+        "id": 6,
+        "name": "Preparing to sell",
+        "about": "enter short about here",
+        "image": "enter.link.her",
+        "time":"15min",
+        "start":"https://www.yahoo.com/"
+    },
+    {
+        "id": 7,
+        "name": "On the market",
+        "about": "enter short about here",
+        "image": "enter.link.her",
+        "time":"15min",
+        "start":"https://www.yahoo.com/"
+    },
+    {
+        "id": 8,
+        "name": "Closing",
         "about": "enter short about here",
         "image": "enter.link.her",
         "time":"15min",
