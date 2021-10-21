@@ -5,7 +5,7 @@ import lesson from "../lesson.json";
 function Lessons() {
     return (
       <div>
-<div className="row mar">
+<div className="row mar pad">
           <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <LessonCard 
               id={lesson[0].id}
@@ -39,7 +39,7 @@ function Lessons() {
             />
           </div>
         </div>
-          <div className="row bottom mar">
+          <div className="row bottom mar pad">
             <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <LessonCard 
               id={lesson[3].id}
