@@ -2,3 +2,9 @@
     background-color: rgb(182, 51, 182);
     height:100vh;
 }
+.homeBox{
+    background-color: gray;
+    width: 70vw;
+    margin-left: 13%;
+    margin-top: 20px;
+}
