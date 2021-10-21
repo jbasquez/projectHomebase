@@ -1,6 +1,7 @@
 .App{
     background-color: rgb(182, 51, 182);
-    height:100vh;
+    width: 100vw;
+    min-height: 100vh;
 }
 .homeBox{
     background-color: rgb(131, 128, 128, 0.9);
