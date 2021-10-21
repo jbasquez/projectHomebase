@@ -11,9 +11,9 @@ function Lessons() {
               id={lesson[0].id}
               name={lesson[0].name}
               about={lesson[0].about}
-              skills={lesson[0].skills}
+              time={lesson[0].time}
               image={lesson[0].image}
-              active={lesson[0].active}
+              start={lesson[0].start}
             />
           </div>
           <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -21,22 +21,22 @@ function Lessons() {
               id={lesson[1].id}
               name={lesson[1].name}
               about={lesson[1].about}
-              skills={lesson[1].skills}
+              time={lesson[1].time}
               image={lesson[1].image}
-              active={lesson[1].active}
+              start={lesson[1].start}
               repo={lesson[1].repo}
             /> */}
           </div>
           <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            {/* <LessonCard 
-              id={lesson[2].id}
-              name={lesson[2].name}
-              about={lesson[2].about}
-              skills={lesson[2].skills}
-              image={lesson[2].image}
-              active={lesson[2].active}
-              repo={lesson[2].repo}
-            /> */}
+            <LessonCard 
+              id={lesson[1].id}
+              name={lesson[1].name}
+              about={lesson[1].about}
+              time={lesson[1].time}
+              image={lesson[1].image}
+              start={lesson[1].start}
+              repo={lesson[1].repo}
+            />
           </div>
         </div>
           <div className="row bottom mar">
@@ -45,9 +45,9 @@ function Lessons() {
                 id={lesson[3].id}
                 name={lesson[3].name}
                 about={lesson[3].about}
-                skills={lesson[3].skills}
+                time={lesson[3].time}
                 image={lesson[3].image}
-                active={lesson[3].active}
+                start={lesson[3].start}
                 repo={lesson[3].repo}
               /> */}
             </div>
@@ -56,9 +56,9 @@ function Lessons() {
                   id={lesson[5].id}
                   name={lesson[5].name}
                   about={lesson[5].about}
-                  skills={lesson[5].skills}
+                  time={lesson[5].time}
                   image={lesson[5].image}
-                  active={lesson[5].active}
+                  start={lesson[5].start}
                   repo={lesson[5].repo}
                 /> */}
             </div>
@@ -68,9 +68,9 @@ function Lessons() {
                 id={lesson[4].id}
                 name={lesson[4].name}
                 about={lesson[4].about}
-                skills={lesson[4].skills}
+                time={lesson[4].time}
                 image={lesson[4].image}
-                active={lesson[4].active}
+                start={lesson[4].start}
                 repo={lesson[4].repo}
               /> */}
               </div>

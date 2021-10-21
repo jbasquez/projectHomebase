@@ -2,8 +2,17 @@
     {
         "id": 1,
         "name": "Name of Lesson Here",
+        "about": "enter short about here",
         "image": "enter.link.her",
         "time":"15min",
-        "start":"link to start lesson"
+        "start":"https://www.yahoo.com/"
+    },
+    {
+        "id": 2,
+        "name": "Name of Lesson Here",
+        "about": "enter short about here",
+        "image": "enter.link.her",
+        "time":"15min",
+        "start":"https://www.yahoo.com/"
     }
 ]

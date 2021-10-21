@@ -4,10 +4,13 @@ function LessonCard(props) {
     return(
       <div className="card">
         <div className="img-container">
-          <a href={props.active}><img className="" alt={props.name} src={props.image} /></a>
+          <a href={props.start}><img className="" alt={props.name} src={props.image} /></a>
         </div>
         <div className="content">
           <ul className="">
+          <li>
+              <strong className="">Lesson:</strong> {props.id}
+            </li>
             <li>
               <strong className="">Name:</strong> {props.name}
             </li>
@@ -17,7 +20,7 @@ function LessonCard(props) {
             <li>
               <strong className="">Estimated time:</strong> {props.time}
             </li>
-              <a className="btn" href={props.active} target="_blank" rel="noopener noreferrer">Demo</a>
+              <a className="btn" href={props.start} target="_blank" rel="noopener noreferrer">Demo</a>
           </ul>
         </div>
       </div>
