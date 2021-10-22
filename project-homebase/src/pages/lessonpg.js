@@ -24,7 +24,6 @@ function Lessons() {
               time={lesson[1].time}
               image={lesson[1].image}
               start={lesson[1].start}
-              repo={lesson[1].repo}
             />
           </div>
           <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -35,7 +34,6 @@ function Lessons() {
               time={lesson[2].time}
               image={lesson[2].image}
               start={lesson[2].start}
-              repo={lesson[2].repo}
             />
           </div>
         </div>
@@ -48,7 +46,6 @@ function Lessons() {
               time={lesson[3].time}
               image={lesson[3].image}
               start={lesson[3].start}
-              repo={lesson[3].repo}
             />
             </div>
             <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -59,7 +56,6 @@ function Lessons() {
               time={lesson[4].time}
               image={lesson[4].image}
               start={lesson[4].start}
-              repo={lesson[4].repo}
             />
             </div>
             <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -71,12 +67,43 @@ function Lessons() {
               time={lesson[5].time}
               image={lesson[5].image}
               start={lesson[5].start}
-              repo={lesson[5].repo}
             />
               </div>
             </div>
           </div>
-
+          <div className="row bottom mar pad">
+            <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <LessonCard 
+              id={lesson[6].id}
+              name={lesson[6].name}
+              about={lesson[6].about}
+              time={lesson[6].time}
+              image={lesson[6].image}
+              start={lesson[6].start}
+            />
+            </div>
+            <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <LessonCard 
+              id={lesson[7].id}
+              name={lesson[7].name}
+              about={lesson[7].about}
+              time={lesson[7].time}
+              image={lesson[7].image}
+              start={lesson[7].start}
+            />
+            </div>
+            <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <div>
+              <LessonCard 
+              name={lesson[8].name}
+              about={lesson[8].about}
+              time={lesson[8].time}
+              image={lesson[8].image}
+              start={lesson[8].start}
+            />
+              </div>
+            </div>
+          </div>
       </div>
     );
   }
