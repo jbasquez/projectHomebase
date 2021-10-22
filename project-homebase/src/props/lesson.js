@@ -3,8 +3,10 @@ import "../css/lesson.css";
 
 function LessonCard(props) {
     return(
-      <div className="card">
-        <div className="img-container">
+      <div>
+        <div className="card">
+          <div className="test">
+          <div className="img-container">
           <a href={props.start}><img className="" alt={props.name} src={props.image} /></a>
         </div>
         <div className="content">
@@ -23,6 +25,8 @@ function LessonCard(props) {
             </li>
               <a className="btn" href={props.start} target="_blank" rel="noopener noreferrer">Demo</a>
           </ul>
+        </div>
+          </div>
         </div>
       </div>
     );
