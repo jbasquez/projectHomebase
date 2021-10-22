@@ -24,7 +24,7 @@ function LessonCard(props) {
             <li>
               <strong className="">Estimated time:</strong> {props.time}
             </li>
-            <Link to="/welcome"><button class="goButton">Lets Go! </button></Link>
+            <Link to={props.start}><button class="goButton">Lets Go! </button></Link>
           </ul>
         </div>
           </div>
