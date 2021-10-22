@@ -1,5 +1,5 @@
 import React from 'react';
-import "../css/lesson.css";
+import '../css/lesson.css';
 
 function LessonCard(props) {
     return(
@@ -12,7 +12,7 @@ function LessonCard(props) {
         <div className="content">
           <ul className="">
           <li>
-              <strong className="">Lesson:</strong> {props.id}
+              <strong className="">Unit:</strong> {props.id}
             </li>
             <li>
               <strong className="">Name:</strong> {props.name}
@@ -23,7 +23,9 @@ function LessonCard(props) {
             <li>
               <strong className="">Estimated time:</strong> {props.time}
             </li>
-              <a className="btn" href={props.start} target="_blank" rel="noopener noreferrer">Demo</a>
+            <li>
+            <button className="button" href={props.start} target="_blank" rel="noopener noreferrer">Start</button>
+            </li>
           </ul>
         </div>
           </div>

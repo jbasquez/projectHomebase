@@ -95,6 +95,7 @@ function Lessons() {
             <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
               <div>
               <LessonCard 
+              id={lesson[8].id}
               name={lesson[8].name}
               about={lesson[8].about}
               time={lesson[8].time}
