@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/lesson.css';
+import {Link } from "react-router-dom";
 
 function LessonCard(props) {
     return(
@@ -23,9 +24,7 @@ function LessonCard(props) {
             <li>
               <strong className="">Estimated time:</strong> {props.time}
             </li>
-            <li>
-            <button className="button" href={props.start} target="_blank" rel="noopener noreferrer">Start</button>
-            </li>
+            <Link to="/welcome"><button class="goButton">Lets Go! </button></Link>
           </ul>
         </div>
           </div>
