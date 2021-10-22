@@ -5,7 +5,7 @@ function Welcome() {
     return (
       <div>
         <div className="row">
-            <div className="center col-lg-12 col-md-8 col-sm-10 col-xs-10">
+            <div className="center col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div className="container">
                     <div className="wrapper">
                         <div className="welcomeMessage welcomeImg">
