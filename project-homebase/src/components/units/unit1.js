@@ -7,6 +7,7 @@ import "../../css/unit.css";
 function Unit1() {
     return (
       <div>
+        <div className="space">
         <div className="row">
           <div className="col-lg-8 col-md-8 col-sm-10 col-xs-12">
             <Unit
@@ -39,6 +40,7 @@ function Unit1() {
         <div>
         <Link to={{ pathname: "https://www.raefordnchomes.com/" }} target="_blank" className="unitBtn1">Start Your Home Search</Link>
         <Link to="/unit2" className="unitBtn1">Next Unit</Link>
+        </div>
         </div>
         </div>
         </div>
