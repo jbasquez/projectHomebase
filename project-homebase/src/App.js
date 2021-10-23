@@ -15,7 +15,7 @@ function App() {
         <Router>
             <NavBar />
             <Switch>
-              <Route exact path={"/"} component={Home} />
+              <Route exact path={"/projectHomebase"} component={Home} />
               <Route exact path={"/welcome"} component={Welcome} />
               <Route exact path={"/about"} component={About} />
               <Route exact path={"/lessons"} component={Lessons} />
