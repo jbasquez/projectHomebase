@@ -6,7 +6,7 @@ import Welcome from "./components/welcome";
 import About from "./pages/about";
 import "../src/css/home.css";
 import Lessons from "../src/pages/lessonpg";
-import Unit1 from "../src/components/unit";
+import Unit1 from "./components/units/unit1";
 
 function App() {
     return (

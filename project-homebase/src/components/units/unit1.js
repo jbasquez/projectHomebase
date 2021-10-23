@@ -1,8 +1,8 @@
 import React from 'react';
-import quiz from '../units.json';
-import Unit from '../props/unit';
+import quiz from '../../units.json';
+import Unit from '../../props/unit';
 import {Link} from 'react-router-dom';
-import "../css/unit.css";
+import "../../css/unit.css";
 
 function Unit1() {
     return (
