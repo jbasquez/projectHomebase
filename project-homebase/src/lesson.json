@@ -1,15 +1,15 @@
 [
     {
         "id": 1,
-        "name": "Deciding to buy a home",
-        "about": "enter short about here",
+        "name": "Intro",
+        "about": "Required Awknowledgements",
         "image": "enter.link.her",
         "time":"15min",
         "start":"/unit1"
     },
     {
         "id": 2,
-        "name": "Getting Pre-approved",
+        "name": "Deciding to buy a home",
         "about": "enter short about here",
         "image": "enter.link.her",
         "time":"15min",
@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "name": "Chosing a home",
+        "name": "Getting Pre-approved",
         "about": "enter short about here",
         "image": "enter.link.her",
         "time":"15min",
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "name": "Closing a home",
+        "name": "Chosing a home",
         "about": "enter short about here",
         "image": "enter.link.her",
         "time":"15min",
@@ -33,7 +33,7 @@
     },
     {
         "id": 5,
-        "name": "Deciding to sell",
+        "name": "Closing a home",
         "about": "enter short about here",
         "image": "enter.link.her",
         "time":"15min",
@@ -41,7 +41,7 @@
     },
     {
         "id": 6,
-        "name": "Preparing to sell",
+        "name": "Deciding to sell",
         "about": "enter short about here",
         "image": "enter.link.her",
         "time":"15min",
@@ -49,7 +49,7 @@
     },
     {
         "id": 7,
-        "name": "On the market",
+        "name": "Preparing to sell",
         "about": "enter short about here",
         "image": "enter.link.her",
         "time":"15min",
@@ -57,7 +57,7 @@
     },
     {
         "id": 8,
-        "name": "Closing",
+        "name": "On the market",
         "about": "enter short about here",
         "image": "enter.link.her",
         "time":"15min",
@@ -65,6 +65,14 @@
     },
     {
         "id": 9,
+        "name": "Closing",
+        "about": "Youve Finished time for the final Test!",
+        "image": "enter.link.her",
+        "time":"15min",
+        "start":"https://www.yahoo.com/"
+    },
+    {
+        "id": 10,
         "name": "Congratulations",
         "about": "Youve Finished time for the final Test!",
         "image": "enter.link.her",
