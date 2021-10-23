@@ -7,6 +7,7 @@ import About from "./pages/about";
 import "../src/css/home.css";
 import Lessons from "../src/pages/lessonpg";
 import Unit1 from "./components/units/unit1";
+import Unit2 from "./components/units/unit2";
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
               <Route exact path={"/about"} component={About} />
               <Route exact path={"/lessons"} component={Lessons} />
               <Route exact path={"/unit1"} component={Unit1} />
+              <Route exact path={"/unit2"} component={Unit2} />
             </Switch>
           </Router>
       </div>
