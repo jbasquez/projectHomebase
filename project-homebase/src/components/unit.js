@@ -8,10 +8,8 @@ function Unit1() {
         <Unit
               id={quiz[0].id}
               name={quiz[0].name}
-              about={quiz[0].about}
-              time={quiz[0].time}
-              image={quiz[0].image}
-              start={quiz[0].start}
+              lesson={quiz[0].lesson}
+              startQuiz={quiz[0].startQuiz}
             />
       </div>
     );
