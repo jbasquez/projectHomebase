@@ -9,7 +9,6 @@ function Unit1() {
               id={quiz[0].id}
               name={quiz[0].name}
               lesson={quiz[0].lesson}
-              startQuiz={quiz[0].startQuiz}
             />
       </div>
     );

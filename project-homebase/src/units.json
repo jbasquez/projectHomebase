@@ -2,7 +2,6 @@
     {
         "id": 1,
         "name": "test",
-        "lesson": "123",
-        "startQuiz":"/welcome"
+        "lesson": "123"
     }
 ]
