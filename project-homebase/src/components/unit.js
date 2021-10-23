@@ -1,29 +1,18 @@
 import React from 'react';
+import quiz from '../units.json';
+import Unit from '../props/unit';
 
 function Unit1() {
     return (
-        <div>
-        <div className="card">
-          <div className="test">
-          <div className="img-container">
-          {/* <a href={props.start}><img className="" alt={props.name} src={props.image} /></a> */}
-        </div>
-        <div className="content">
-          <ul className="">
-          <li>
-              {/* <strong className="">Unit:</strong> {props.id} */}
-            </li>
-            <li>
-              {/* <strong className="">Name:</strong> {props.name} */}
-            </li>
-            <li>
-              {/* <strong className="">Lesson:</strong> {props.about} */}
-            </li>
-            {/* <Link to={props.startQuiz}><button class="goButton">Lets Go! </button></Link> */}
-          </ul>
-        </div>
-          </div>
-        </div>
+      <div>
+        <Unit
+              id={quiz[0].id}
+              name={quiz[0].name}
+              about={quiz[0].about}
+              time={quiz[0].time}
+              image={quiz[0].image}
+              start={quiz[0].start}
+            />
       </div>
     );
   }
