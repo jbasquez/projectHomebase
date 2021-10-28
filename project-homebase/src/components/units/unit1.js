@@ -18,8 +18,10 @@ function Unit1() {
           </div>
         </div>
         <div className="row">
-        <div className="col-lg-8 col-md-8 col-sm-10 col-xs-12">
+        <div className="col-lg-8 col-md-8 col-sm-10 col-xs-12 box">
         <Link to={{ pathname: "https://www.ncrec.gov/" }} target="_blank" className="unitBtn1">Brochure</Link>
+        </div>
+        <div className="col-lg-8 col-md-8 col-sm-10 col-xs-12 box">
         <Link to={{ pathname: "https://www.ncrec.gov/Brochures/WWREADisclosureForm.pdf" }} target="_blank" className="unitBtn1">Sign Here</Link>
         </div>
         </div>
