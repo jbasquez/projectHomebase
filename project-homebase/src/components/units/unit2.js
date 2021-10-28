@@ -1,5 +1,5 @@
 import React from 'react';
-import quiz from "../../lesson.json";
+import quiz from "../../units.json";
 import Unit from '../../props/unit';
 import {Link} from 'react-router-dom';
 import "../../css/unit.css";
